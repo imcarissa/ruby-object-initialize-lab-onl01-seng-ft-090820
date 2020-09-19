@@ -12,7 +12,8 @@ class Person
   def name
     @name
     @breed = breed
-  end
+   end
+ end
 end
 
 
