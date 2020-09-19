@@ -9,10 +9,9 @@ class Person
     @breed = breed
   end
  
-  def name
+  def name, breed
     @name
     @breed = breed
-   end
  end
 end
 
