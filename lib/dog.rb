@@ -28,3 +28,4 @@ class Dog
 end
 
 fido = Dog.new("Mutt")
+fido.instance_variable_set(:@breed, "Mutt")
