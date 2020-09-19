@@ -9,11 +9,14 @@ class Person
     @breed = breed
   end
  
-  def name, breed
+  def name
     @name
-    @breed = breed
- end
-end
+  end
+  
+  def breed
+    @breed
+  end 
+end 
 
 
 fido = Dog.new
