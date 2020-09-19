@@ -1,9 +1,9 @@
 class Person
-  def initialize(name)
+  def initialize(name, breed)
     @name = name
   end
  
-  def name=(name)
+  def name=(name, breed)
     @name = name
   end
  
@@ -25,7 +25,7 @@ class Dog
     @breed
   end
 end
-end
+
 
 fido = Dog.new
 fido.instance_variable_set(:@breed, "Mutt")
